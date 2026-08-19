@@ -27,26 +27,35 @@ Bu repo, projenin **Laravel tabanlı REST API ve Web Yönetim Paneli** bileşeni
 
 ### Web Yönetim Paneli (Admin Dashboard)
 
+### İstatistikler
+
 <p align="center">
-  <img src="docs/images/web-admin/dashboard.png" width="800" alt="Web Admin Dashboard - Kontrol Paneli" />
-</p>
-<p align="center">
-  <img src="docs/images/web-admin/sikayet-listesi.png" width="400" alt="Web Şikayet Listesi" />
-  <img src="docs/images/web-admin/sikayet-detay.png" width="400" alt="Şikayet Detayı" />
-</p>
-<p align="center">
-  <img src="docs/images/web-admin/personel-ata.png" width="400" alt="Web Görev Atama" />
-  <img src="docs/images/web-admin/durum-guncelle.png" width="400" alt="Şikayet Durum Güncelleme" />
+  <img src="https://github.com/user-attachments/assets/4ff9cf8b-17a5-4cb8-9021-3bb0d909c9a0" />
 </p>
 
-#### Kullanıcı ve Yetki Yönetimi
+### Şikayetler Ve Detayları
+
 <p align="center">
-  <img src="docs/images/web-admin/yonetici-listesi.png" width="400" alt="Yönetici Listesi" />
-  <img src="docs/images/web-admin/calisan-listesi.png" width="400" alt="Çalışan Listesi" />
+  <img src="https://github.com/user-attachments/assets/7c93f37e-1278-4599-917a-ca076393ade7" width="48%" />
+  <img src="https://github.com/user-attachments/assets/a4d8901c-57fe-498a-bed4-52f342ae9321" width="48%" />
+</p>
+
+### Şikayet Güncelleme Ve Personel Atama
+
+<p align="center">
+  <img  src="https://github.com/user-attachments/assets/3ad612b5-f28c-4e74-ba33-0a33f10ddab4" width="48%" />
+  <img  src="https://github.com/user-attachments/assets/a6e3358d-200a-446f-8bff-4328185b312c" width="48%" />
+</p>
+
+### Kullanıcı ve Yetki Yönetimi
+
+<p align="center">
+  <img  src="https://github.com/user-attachments/assets/ad4657e5-0c15-4e6d-9ecb-dab5aa557951" width="48%" />
+  <img  src="https://github.com/user-attachments/assets/5a042393-dbc2-4c4c-9ba7-3b6c98dcbb02" width="48%"  />
 </p>
 <p align="center">
-  <img src="docs/images/web-admin/personel-profili.png" width="400" alt="Personel Profili ve Atandığı Şikayetler" />
-  <img src="docs/images/web-admin/yetki-yonetimi.png" width="400" alt="Rol Bazlı Yetki Yönetimi" />
+  <img  src="https://github.com/user-attachments/assets/f0ad6d9f-7f74-4d91-a982-8fb44e511878" width="48%" />
+  <img src="https://github.com/user-attachments/assets/0a825051-0de1-4ad2-902b-4ab54e5160ea"width="48%"  />
 </p>
 
 ---
@@ -109,7 +118,11 @@ cp .env.example .env
 php artisan key:generate
 
 # 4. .env dosyasında veritabanı bilgilerinizi düzenleyin
-
+#    DB_CONNECTION=mysql
+#    DB_HOST=127.0.0.1
+#    DB_DATABASE=report_app
+#    DB_USERNAME=...
+#    DB_PASSWORD=...
 
 # 5. Veritabanı tablolarını oluşturun ve örnek verileri yükleyin
 php artisan migrate --seed
