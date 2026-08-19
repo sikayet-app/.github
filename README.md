@@ -109,11 +109,7 @@ cp .env.example .env
 php artisan key:generate
 
 # 4. .env dosyasında veritabanı bilgilerinizi düzenleyin
-#    DB_CONNECTION=mysql
-#    DB_HOST=127.0.0.1
-#    DB_DATABASE=report_app
-#    DB_USERNAME=...
-#    DB_PASSWORD=...
+
 
 # 5. Veritabanı tablolarını oluşturun ve örnek verileri yükleyin
 php artisan migrate --seed
